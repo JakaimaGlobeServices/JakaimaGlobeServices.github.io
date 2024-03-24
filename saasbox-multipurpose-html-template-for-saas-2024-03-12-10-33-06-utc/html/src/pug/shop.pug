@@ -1,0 +1,367 @@
+doctype html
+html(lang="en")
+    head
+        include inc/head.pug
+
+    body
+        include inc/loader.pug
+
+        include inc/header-2.pug
+
+        .welcome-area.hero6.bg-white
+          .welcome4-slide-wrap
+
+            // Slide Item
+            .welcome4-slide-item(style="background-image: url('./img/bg-img/18.jpg')")
+              .container.h-100
+                .row.h-100.align-items-center.justify-content-center
+                  .col-12.col-sm-10.col-md-9
+                    // Content
+                    .welcome-content.text-center
+                      h2.d-block.mb-2 World Class Furniture
+                      h3.mb-0.d-block Clasp comfort with style
+
+            // Slide Item
+            .welcome4-slide-item(style="background-image: url('./img/bg-img/19.jpg')")
+              .container.h-100
+                .row.h-100.align-items-center.justify-content-center
+                  .col-12.col-sm-10.col-md-9
+                    // Content
+                    .welcome-content.text-center
+                      h2.d-block.mb-2 Backpacks for all purposes
+                      h3.mb-0.d-block Keeping you secured in the wilderness
+
+        .mb-120.d-block
+
+        .container
+          .row.g-4.g-xl-5.justify-content-center
+            .col-12.col-sm-9.col-md-6.col-lg-4
+              .card.rounded-3.shadow-sm.card-shop-catagory
+                img.rounded-3(src="img/bg-img/20.jpg" alt="")
+                .position-absolute.top-50.start-50.translate-middle.bg-white.text-center.w-50.rounded-3.py-2.px-3.title
+                  a.text-dark.fz-14.fw-bold.rounded-3(href="#") Beauty Products 
+                    i.bi.bi-arrow-right
+
+            .col-12.col-sm-9.col-md-6.col-lg-4
+              .card.rounded-3.shadow-sm.card-shop-catagory
+                img.rounded-3(src="img/bg-img/21.jpg" alt="")
+                .position-absolute.top-50.start-50.translate-middle.bg-white.text-center.w-50.rounded-3.py-2.px-3.title
+                  a.text-dark.fz-14.fw-bold.rounded-3(href="#") Fancy Beds 
+                    i.bi.bi-arrow-right
+
+            .col-12.col-sm-9.col-md-6.col-lg-4
+              .card.rounded-3.shadow-sm.card-shop-catagory
+                img.rounded-3(src="img/bg-img/22.jpg" alt="")
+                .position-absolute.top-50.start-50.translate-middle.bg-white.text-center.w-50.rounded-3.py-2.px-3.title
+                  a.text-dark.fz-14.fw-bold.rounded-3(href="#") Fashion Tag 
+                    i.bi.bi-arrow-right
+
+        .mb-120.d-block
+
+        .new-arrival-area
+          .container
+            .row.align-items-end.justify-content-between
+              .col-12.col-sm-8
+                .section-heading
+                  h6 New Arrival
+                  h2 Check out latest awesome products
+                  p It's crafted with the latest trend of design &amp; coded with all modern approaches.
+
+          .container.new-arrival-slider
+            .new-arrival-wrap
+
+              // Shop Card
+              .py-3
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop1.jpg" alt="")
+                    // Love Products
+                    a.love-product.active(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Liked")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Bonsai Tree
+                      h6.price.mb-0 $19.99
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Shop Card
+              .py-3
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop2.jpg" alt="")
+                    // Love Products
+                    a.love-product.active(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Liked")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Milk Cookie Biscuit
+                      h6.price.mb-0 $8.58
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Shop Card
+              .py-3
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop2.jpg" alt="")
+                    // Love Products
+                    a.love-product.active(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Liked")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Bonsai Tree
+                      h6.price.mb-0 $11.45
+                        span $16.78
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Shop Card
+              .py-3
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop2.jpg" alt="")
+                    // Love Products
+                    a.love-product.active(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Liked")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Bonsai Tree
+                      h6.price.mb-0 $11.45
+                        span $16.78
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+          
+        .mb-120.d-block
+
+        .about-area.py-5.bg-gray
+          .container
+            .row.g-5.justify-content-center
+
+              .col-11.col-sm-6.col-md-4
+                .single-about-item.text-center.wow.fadeInUp(data-wow-duration="1000ms", data-wow-delay="200ms")
+                  .icon.mx-auto.mb-4
+                    img(src="img/core-img/secure-payment.png" alt="")
+                  h5.mb-0 100% secure online payments
+
+              .col-11.col-sm-6.col-md-4
+                .single-about-item.text-center.wow.fadeInUp(data-wow-duration="1000ms", data-wow-delay="400ms")
+                  .icon.mx-auto.mb-4
+                    img(src="img/core-img/exchange.png" alt="")
+                  h5.mb-0 30 days exchange &amp; return period
+
+              .col-11.col-sm-6.col-md-4
+                .single-about-item.text-center.wow.fadeInUp(data-wow-duration="1000ms", data-wow-delay="600ms")
+                  .icon.mx-auto.mb-4
+                    img(src="img/core-img/free-shipping.png" alt="")
+                  h5.mb-0 Free shipping for all over BD
+
+        .mb-120.d-block
+
+        .shop-area
+          .container
+            .row.justify-content-center
+              .col-12.col-sm-10.col-md-9.col-lg-8
+                .section-heading.text-center
+                  h6 Popular Item
+                  h2 Our most popular items
+
+          .container
+            .row.g-4.g-xl-5
+
+              // Single Shop Card
+              .col-12.col-sm-6.col-lg-4
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop4.jpg" alt="")
+                    // Love Products
+                    a.love-product(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Like")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Sony PS4 Original
+                      h6.price.mb-0 $78.40
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Single Shop Card
+              .col-12.col-sm-6.col-lg-4
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop5.jpg" alt="")
+                    // Love Products
+                    a.love-product(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Like")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Young Living Patchouili
+                      h6.price.mb-0 $16.65
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Single Shop Card
+              .col-12.col-sm-6.col-lg-4
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop6.jpg" alt="")
+                    // Love Products
+                    a.love-product(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Like")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Onne Beauty
+                      h6.price.mb-0 $12.30
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Single Shop Card
+              .col-12.col-sm-6.col-lg-4
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop7.jpg" alt="")
+                    // Love Products
+                    a.love-product(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Like")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Camera Sticker
+                      h6.price.mb-0 $6.50
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Single Shop Card
+              .col-12.col-sm-6.col-lg-4
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop8.jpg" alt="")
+                    // Love Products
+                    a.love-product(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Like")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 iPad
+                      h6.price.mb-0 $300.98
+                        span $400.63
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Single Shop Card
+              .col-12.col-sm-6.col-lg-4
+                .card.shop-card
+                  .product-img-wrap
+                    img.card-img-top(src="img/bg-img/shop9.jpg" alt="")
+                    // Love Products
+                    a.love-product(href="#", data-bs-toggle="tooltip", data-bs-placement="right", title="Like")
+                      i.bi.bi-heart
+                  .product-meta.d-flex.align-items-center.justify-content-between.p-4
+                    .product-name
+                      h6 Leather Shoe
+                      h6.price.mb-0 $76.38
+                    .product-add-to-cart
+                      // Add To Cart
+                      a(href="#")
+                        i.bi.bi-cart
+
+              // Pagination Area
+              .saasbox-pagination-area.mt-5
+                nav(aria-label="Page navigation example")
+                  ul.pagination.justify-content-center.mb-0
+                    li.page-item.active
+                      a.page-link(href="#") 1
+                    li.page-item
+                      a.page-link(href="#") 2
+                    li.page-item
+                      a.page-link(href="#") 3
+                    li.page-item
+                      a.page-link(href="#") 4
+                    li.page-item
+                      a.page-link(href="#") -
+                    li.page-item
+                      a.page-link(href="#") 9
+
+        .mb-120.d-block
+
+        .container
+          .border-top
+
+        .mb-120.d-block
+
+        .partner-area
+          .container
+            .row
+              .col-12
+                .section-heading.text-center
+                  h2.mb-0 Trusted by 
+                    span.counter.text-danger 500
+                    | + creative brands
+
+          .container
+            .partner-wrapper
+              // Logo
+              .partner-logo.px-sm-3
+                img(src="img/partner-img/1.png" alt="")
+              
+              // Logo
+              .partner-logo.px-sm-3
+                img(src="img/partner-img/2.png" alt="")
+              
+              // Logo
+              .partner-logo.px-sm-3
+                img(src="img/partner-img/3.png" alt="")
+              
+              // Logo
+              .partner-logo.px-sm-3
+                img(src="img/partner-img/4.png" alt="")
+              
+              // Logo
+              .partner-logo.px-sm-3
+                img(src="img/partner-img/5.png" alt="")
+              
+              // Logo
+              .partner-logo.px-sm-3
+                img(src="img/partner-img/6.png" alt="")
+
+        .mb-120.d-block
+
+        .saasbox-newsletter-area
+          .container
+            .row
+              .col-12
+                .card.newsletter-card.shadow-lg.bg-text-gray.border-0.bg-img(style="background-image: url('img/core-img/4.png')")
+                  .card-body
+                    .text-center
+                      h2 Subscribe to our newsletter
+                      p.mb-5 Subscribe to our newsletter, we will notify you when we are live.
+
+                    form(action="#", method="POST")
+                      .row.justify-content-center
+                        .col-12.col-md-5
+                          input.form-control(type="email", placeholder="Type your mail", aria-describedby="mailHelp")
+                          small.text-muted.text-start#mailHelp
+                            i.bi.bi-lock.me-1 We'll never share your email with anyone else.
+                        .col-12.col-md-3
+                          button.btn.btn-primary.w-100.mt-3.mt-md-0(type="submit") Subscribe Now
+
+        .mb-120.d-block
+
+    include inc/footer-2.pug
+
+    include inc/js-plugins.pug
